@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+p{
+    font-size: 30px;
+    font-family: Lucida;
+    padding: 0% 0px 0 -100px;
+
+}
+body{ 
+    height: 100vh;
+    background: linear-gradient(to right,
+     white 0%,
+     white 60%,
+     rgb(184, 150, 98) 60%,
+     rgb(184, 150, 98) 100%);
+    
+}
+
+.back{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+a{
+    font-size: 15px;
+}
+.menu{
+    display: flex;
+    font-size: 20px;
+    width: 60%;
+}
+
+.segundo{
+    width: 20%;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+.primerboton{
+    background-color: rgb(184, 150, 98) ;
+    padding: 5px 5px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.texto{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200vh;
+
+}
+
+
+h1{
+    font-size: 80px;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    width: 500px;
+    margin-left: 7%;
+}
+.img{
+    position: absolute;
+    top: 0;
+    right: 400px;
+    height: 130vh;
+}
+.chica2{
+    height: 130vh;
+}
+.parrafo{
+    font-size: 17px;
+    width: 407px;
+    position: absolute;
+    left: 7%;
+    bottom: 55%;
+}
+.segundoboton{
+    position: absolute;
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    width: 12%;
+    left: 7%;
+    top: 33% ;
+    background-color: white;
+}
+
+hr{
+    border: none;
+    width: 5px;
+    border-right: 3px solid gray;
+    height: 120px;
+    position: absolute;
+    top: 18%;
+    right: 5% ;
+}
+
+h3{
+    color: black;
+    font-size: 9px;
+    position: absolute;
+    right: 4%;
+    top: 18.5% ;
+    width: 20px;
+    padding: 10px;
+}
